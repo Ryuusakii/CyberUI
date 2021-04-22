@@ -781,6 +781,9 @@ position: absolute;
     transform: translateX(-50%);
   }
 }
+
+
+
 .perspectivecontainer {
 perspective: 500px;
 }

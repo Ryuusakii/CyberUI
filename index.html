@@ -353,12 +353,12 @@ const DrawCommands = async commands => {
 	RenderString("\n");
 	await DrawCommands(commands);
 	RenderString('\nインデックス.js    題名.js\n\n');
-	await DrawCommands('root「」~・サイバパンク・ファイル --> node インデックス.js');
+	await DrawCommands('root「」~ARC--> node splash.js');
 	await DrawLines( header );
 	await TypeString("\n\nThe future is here. Get augmented.");
 	await Delay(2000);
 	ResetTerminal();
-	await DrawCommands('root「」~・サイバパンク・ファイル --> API_KEY=3db7ca618243da1ba3bc76ab14bcf07b && node 題名.js');
+	await DrawCommands('root「」~・ARC --> API_KEY=3db7ca618243da1ba3bc76ab14bcf07b && node 題名.js');
 	await DrawLines(finalTitle);
 })();
 
