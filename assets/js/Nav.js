@@ -1,12 +1,10 @@
 $(document).ready(function(){
 
 
-
-
-
 $('#slide1').on('click', function(){
     $('.servthree').hide();
     $('.servtwo').hide();
+    $('.servfour').hide();
     $('.servone').show();
     $('.servone').addClass('glitch--animate');
     setTimeout(function () {
@@ -18,6 +16,8 @@ $('#slide1').on('click', function(){
 $('#slide2').on('click', function(){
     $('.servone').hide();
     $('.servthree').hide();
+        $('.servfour').hide();
+
     $('.servtwo').show();
     $('.servtwo').addClass('glitch--animate');
     setTimeout(function () {
@@ -28,6 +28,8 @@ $('#slide2').on('click', function(){
 $('#slide3').on('click', function(){
     $('.servone').hide();
     $('.servtwo').hide();
+    $('.servfour').hide();
+
     $('.servthree').show();
     $('.servthree').addClass('glitch--animate');
     setTimeout(function () {
@@ -35,6 +37,17 @@ $('#slide3').on('click', function(){
    },800);  
 });
 
+$('#slide4').on('click', function(){
+    $('.servone').hide();
+    $('.servtwo').hide();
+    $('.servthree').hide();
+
+    $('.servfour').show();
+    $('.servfour').addClass('glitch--animate');
+    setTimeout(function () {
+        $('.servfour').removeClass("glitch--animate");
+   },800);  
+});
 
 
 
