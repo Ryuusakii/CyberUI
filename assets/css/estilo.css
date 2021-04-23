@@ -33,13 +33,13 @@ html {
   --hot-blue: var(--hbl, #b1ffff);
   --hot-red: #ff604d;
   --hot-green: #b9ffb1;
-  --gold: #ffd700;
-  --gold88: rgba(255, 215, 0, 0.53);
-  --goldDark: #eda725;
-  --hovercolor: #ff0000;
-  --hovercolorbg: rgba(255, 0, 0, 0.25);
-  --inputfocus: rgba(255, 220, 23, 0.644);
-  --termcolor: #0f0900;
+  --gold: #ff0000;
+  --gold88: rgba(255, 0, 0, 0.53);
+  --goldDark: #ed2525;
+  --hovercolor: #00ffbf;
+  --hovercolorbg: rgba(0, 255, 170, 0.25);
+  --inputfocus: rgba(255, 23, 23, 0.644);
+  --termcolor: #0f0000;
 }
 body {
   background-image: url('https://steamuserimages-a.akamaihd.net/ugc/96102627876415855/B7C044FB1BEA7E9431E380FB807FFE36E43B66CE/');
@@ -164,9 +164,17 @@ padding-bottom: -200px;  background: #00000000;
   }
 }
 .buttons{
-
-  margin-top: -10px;
+display: flex;
+flex-direction: column;
+  margin-top: 2px;
+  margin-right: -20px;
+  padding-left:30px;
 }
+.buttons button:last-child, .buttons button:nth-last-child(2){
+  margin-top: 15px;
+}
+
+
 .color-button .fa{
   padding: 7px 0 0 7px;
 }
@@ -584,7 +592,7 @@ width: 300px;
   width: 400px;
   grid-area: two;
   margin-top: -30px;
-  padding-bottom: 70px;
+  padding-bottom: 10px;
   --aug-bl: 25px;
   --aug-tr: 20px;
   --aug-br: 10px;
@@ -754,22 +762,24 @@ color: var(--goldDark)
 
 .definitions-container {
   position: fixed;
-  bottom: 45px;
-  right: 25px;
-  height: 30px;
+  bottom: -30px;
+  right: -170px;
+  height: 190px;
   width: 300px;
   transform-origin: 100% 50%;
   transform: rotateY(-20deg);
   perspective: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .definitions-container1 {
-position: absolute;
-  bottom: 45px;
-  right: 1200px;
+position: fixed;
+  bottom: -30px;
   height: 330px;
   width: 120px;
  
-  perspective: 200px;
+  perspective: 100px;
 
 }
 @media (max-width: 768px) {
@@ -805,9 +815,7 @@ perspective: 500px;
   --aug-tr: 30px;
   padding: 10px;
   --aug-inset: 3px;
-  --aug-inset-bg: rgba(0, 0, 0, 0.85);
-  --aug-border: 2px;
-  --aug-border-bg: var(--gold88);
+
   --aug-border-fallback-color: var(--gold);
   
   height: 82%;
@@ -832,16 +840,14 @@ perspective: 500px;
 .definitions-container .def {
   padding: 10px;
   --aug-inset: 3px;
-  --aug-inset-bg: rgba(0, 0, 0, 0.658);
-  --aug-border: 2px;
-  --aug-border-bg: var(--gold88);
+ 
   --aug-border-fallback-color: var(--gold);
   --aug-tr: 6px;
   --aug-bl: 6px;
   --aug-br: 25px;
   --aug-tl: 25px;
   height: 80%;
-  width: 100%;
+  width: 80%;
   padding: 20px;
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.75rem;
@@ -3799,3 +3805,4 @@ color: var(--gold);
 	animation: scanline 8s linear infinite;
 	pointer-events: none;
 }
+

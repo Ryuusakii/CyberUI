@@ -1,0 +1,293 @@
+
+/*mobile*/
+@media(max-width: 600px)
+{
+
+
+
+.divserviços h1 {
+  font-size: 30px;
+  margin-top: -30px;
+  margin-left: 20px;
+  padding-top: 0px;
+  text-align:center;
+  color:  var(--gold);
+  top: 2.5rem;
+  --aug-border: initial;
+  --aug-border-all: 1px;
+  --aug-border-bg: var(--hot-red);
+  box-shadow: inset 0px 0px 1rem var(--gold88);
+  -webkit-mask-image: repeating-linear-gradient(black, black 0.5rem, rgba(0, 0, 0, 0.5) 0.75rem);
+  mask-image: repeating-linear-gradient(black, black 0.5rem, rgba(0, 0, 0, 0.5) 0.75rem);
+  -webkit-mask-position: center 0rem;
+  mask-position: center 0rem;
+  animation: retro-future-tv-lines linear infinite;
+  animation-duration: 500ms;
+  --playstate: var(--media-prefers-reduced-motion) paused;
+  animation-play-state: var(--playstate, running);
+}
+.divserviços h2 {
+  font-size: 6.2vw;
+}
+.divserviços li {
+  font-size: 4vw;
+}
+.divserviços{ 
+ margin-left: -9px;
+ margin-top: 20px;
+  width: 90vw;
+  padding-left: 0px;
+  --aug-bl: 25px;
+  --aug-tr: 20px;
+  --aug-br: 10px;
+  --aug-tl: 90px;
+  --aug-inset: 3px;
+  --aug-inset-bg: rgba(0, 0, 0, 0.35);
+  --aug-border: 2px;
+  --aug-border-bg: var(--gold88);
+  --aug-border-fallback-color: #ffd700;
+  height: 80vh;
+
+  font-size: 32px;
+  color: rgb(255, 174, 0);
+  filter: drop-shadow(0px 0px 0.125rem black);
+  -webkit-mask-image: repeating-linear-gradient(black, black 2px, transparent 3px);
+  mask-image: repeating-linear-gradient(black, black 2px, transparent 3px);
+}
+
+
+
+
+
+
+
+
+
+.inicio {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
+  font-size: 1vw;
+  font-weight: 100;
+  text-shadow: 0 0 5px var(--gold);
+  background-color: var(--termcolor);
+  background-image: url(http://api.thumbr.it/whitenoise-200x200.png?background=00000000&noise=626262&density=15&opacity=15);
+  background-size: 100px;
+  color: var(--gold);
+  height: 1000px;
+  text-align: center;
+  padding-top: 200px;
+  margin-top: -100px;
+  width: 100vw;
+  opacity: 0.6;
+  margin-left: -30px;
+  padding-left: 30px;
+}
+.inicio .code {
+  margin-left: -20px;
+}
+#one pre , #one p{
+margin-left: -20px;
+font-size: 2.2vw;
+}
+.blink {
+  font-size: 2.2vw;
+}
+
+
+.definitions-container {
+  position: fixed;
+  bottom: -30px;
+  right: -130px;
+  height: 190px;
+  width: 300px;
+  transform-origin: 100% 50%;
+  transform: rotateY(-20deg);
+  perspective: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.definitions-container1 {
+position: fixed;
+  bottom: -30px;
+  height: 330px;
+  width: 120px;
+ 
+  perspective: 100px;
+
+}
+
+.buttons {
+  padding-left: 100px;
+}
+
+.header-presentation {
+  width: 108vw;
+  position: fixed;
+  min-height: 90vh;
+padding-bottom: -200px;  background: #00000000;
+  --aug-tl: 20px;
+  --aug-tl-width: 100px;
+  --aug-tr-width: 100px;
+--aug-tr: 20px;
+  --aug-bl: 20px;
+  --aug-bl-width: 40%;
+  --aug-br: 20px;
+  --aug-br-width: 40%;
+  --aug-border: 1px;
+  --aug-border-bg: var(--gold);
+  --aug-inset: 0px;
+  margin-left: -5px;
+  --aug-inset-bg: rgba(0, 0, 0, 0.8);
+  
+}
+
+
+  .definitions-container1 {
+position: absolute;
+  bottom: 25px;
+  right: 160px;
+  height: 330px;
+  top: 300px;
+  width: 230px;
+  padding-bottom: -90px;
+ 
+  perspective: 200px;
+  ;
+
+
+}
+ 
+
+.definitions-container1 .def1 .fa-envelope {
+  margin-top: -60px;
+  margin-bottom: -120px;
+}
+
+.definitions-container1 .def1 .fa-bars {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-right: 4px;
+}
+.definitions-container1 .def1 {
+  --aug-bl: 25px;
+  --aug-tr: 30px;
+
+  --aug-border-bg: var(--gold88);
+  --aug-border-fallback-color: var(--gold);
+  
+  height: 80%;
+  width: 50%;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0rem;
+  line-height: 15px;
+  transform-origin: 50% 100%;
+  transform: rotateY(15deg);
+}
+  .title  {
+  width: 60.8vw;
+  position: fixed;
+  margin-top: 20px;
+  right: 0;
+}
+
+.title h1 {
+    font-size: 28px;
+
+}
+
+#four {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.contact {
+  margin-left: 2px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  perspective: 400px;
+  padding-right: -400px;
+  margin-top: -0020px;
+
+  }
+
+
+.container #four .div1 {
+  position: relative;
+  transform-origin: 50% 100%;
+  transform: rotateY(8deg);
+padding-top: 30px;
+width: 80vw;
+display: flex;flex-direction: column;
+  height: 100px;
+  --aug-bl: 25px;
+  --aug-tr: 20px;
+  --aug-br: 50px;
+  --aug-tl: 90px;
+  --aug-inset: 3px;
+--aug-inset-bg: rgba(0,0,0,0.35);
+  --aug-border: 2px;
+  --aug-border-bg: var(--gold88);
+  --aug-border-fallback-color: #ffd700;
+  
+  grid-area: one;
+  font-size: 32px;
+  color:var(--gold);
+  filter: drop-shadow(0px 0px 0.125rem rgb(0,0,0));
+  -webkit-mask-image: repeating-linear-gradient(black, black 2px, transparent 3px);
+  mask-image: repeating-linear-gradient(black, black 2px, transparent 3px);
+}
+
+
+.container #four .div2 {
+  display: flex;
+  flex-direction: column;
+  transform-origin: 50% 100%;
+  transform: rotateY(-15deg);
+ margin-left: 200px;
+  width: 400px;
+ 
+  margin-top: -30px;
+  padding-bottom: 10px;
+  --aug-bl: 25px;
+  --aug-tr: 20px;
+  --aug-br: 10px;
+  --aug-tl: 70px;
+  --aug-inset: 3px;
+  --aug-inset-bg: rgba(0, 0, 0, 0.35);
+  --aug-border: 2px;
+  --aug-border-bg: var(--gold88);
+  --aug-border-fallback-color: var(--gold);
+
+  font-size: 32px;
+  color: var(--gold);
+  filter: drop-shadow(0px 0px 0.125rem rgb(0,0,0));
+  -webkit-mask-image: repeating-linear-gradient(black, black 2px, transparent 3px);
+  mask-image: repeating-linear-gradient(black, black 2px, transparent 3px);
+  box-shadow: inset 0px 0px 1rem var(--gold88);
+  -webkit-mask-image: repeating-linear-gradient(black, black 0.5rem, rgba(0, 0, 0, 0.5) 0.75rem);
+  mask-image: repeating-linear-gradient(black, black 0.5rem, rgba(0, 0, 0, 0.5) 0.75rem);
+  -webkit-mask-position: center 0rem;
+  mask-position: center 0rem;
+  animation: retro-future-tv-lines linear infinite;
+  animation-duration: 500ms;
+  --playstate: var(--media-prefers-reduced-motion) paused;
+  animation-play-state: var(--playstate, running);
+}
+
+
+.container #four .div1 h2 {
+  font-size: 30px;
+  margin-bottom: -30px;
+  margin-left: -94px;
+  color: var(--gold);
+}
+.container #four .div1 h1 {
+  font-size: 21px;
+  margin-left: -20px;
+
+}
+
+
+}
