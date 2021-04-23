@@ -1,6 +1,12 @@
 
 
+
+
+
 $(document).ready(function () {
+
+  
+
     setTimeout(function () {
         $('.slider__inner').removeClass("glitch--animate");
    },2000);  

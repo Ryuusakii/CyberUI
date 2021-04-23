@@ -12,7 +12,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="assets/css/augmented.css">
        
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
        
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
@@ -231,11 +232,13 @@
             <div class="def" augmented-ui="tr-round tl-clip bl-round br-clip exe">
               <div class="buttons">
 
-<center>
-              <button augmented-ui="tr-clip tl-clip bl-clip br-clip exe" class="color-button" id="goldtheme" ><i class="fa fa-terminal"></i></button>
-              <button augmented-ui="tr-clip tl-clip bl-clip br-clip exe" class="color-button" id="redtheme" ><i class="fa fa-terminal"></i></button>
-              <button augmented-ui="tr-clip tl-clip bl-clip br-clip exe" class="color-button" id="bluetheme"><i class="fa fa-terminal"></i></button>
-            </center>
+
+<button augmented-ui="tr-clip tl-clip bl-clip br-clip exe" class="color-button" id="goldtheme" ><i class="fa fa-terminal"></i></button>
+           
+
+<button augmented-ui="tr-clip tl-clip bl-clip br-clip exe" class="color-button" id="redtheme" ><i class="fa fa-terminal"></i></button>
+<button augmented-ui="tr-clip tl-clip bl-clip br-clip exe" class="color-button" id="bluetheme"><i class="fa fa-terminal"></i></button>
+           
             </div>
             </div>
           </div>
@@ -263,39 +266,56 @@
             </div>
         </body>
      <script>
-     const commands = String.raw`root「」~・サイバパンク --> cd ファイル
-root「」~・サイバパンク・ファイル --> ls`;
+     const commands = String.raw`ul5085「」Desk --> Δ ssh -i ssh_hkey.log 172.485.45.582@ARC 
+root「」ARC --> Δ cd HOME
+root「」ARC @ /home --> Δ ls    `;
 const header = String.raw`
-                                                  
-
-        ________/\\\\\\\\\________________/\\\________________________________________________/\\\________/\\\__/\\\\\\\\\\\_        
-      _____/\\\////////________________\/\\\_______________________________________________\/\\\_______\/\\\_\/////\\\///__       
-       ___/\\\/______________/\\\__/\\\_\/\\\_______________________________________________\/\\\_______\/\\\_____\/\\\_____      
-        __/\\\_______________\//\\\/\\\__\/\\\____________/\\\\\\\\___/\\/\\\\\\\____________\/\\\_______\/\\\_____\/\\\_____     
-         _\/\\\________________\//\\\\\___\/\\\\\\\\\____/\\\/////\\\_\/\\\/////\\\___________\/\\\_______\/\\\_____\/\\\_____    
-          _\//\\\________________\//\\\____\/\\\////\\\__/\\\\\\\\\\\__\/\\\___\///____________\/\\\_______\/\\\_____\/\\\_____   
-           __\///\\\___________/\\_/\\\_____\/\\\__\/\\\_\//\\///////___\/\\\___________________\//\\\______/\\\______\/\\\_____  
-            ____\////\\\\\\\\\_\//\\\\/______\/\\\\\\\\\___\//\\\\\\\\\\_\/\\\____________________\///\\\\\\\\\/____/\\\\\\\\\\\_ 
-             _______\/////////___\////________\/////////_____\//////////__\///_______________________\/////////_____\///////////__
+ █████╗ ██████╗  ██████╗ █████╗ ███╗   ██╗ ██████╗ ███████╗██╗      ██████╗ 
+██╔══██╗██╔══██╗██╔════╝██╔══██╗████╗  ██║██╔════╝ ██╔════╝██║     ██╔═══██╗
+███████║██████╔╝██║     ███████║██╔██╗ ██║██║  ███╗█████╗  ██║     ██║   ██║
+██╔══██║██╔══██╗██║     ██╔══██║██║╚██╗██║██║   ██║██╔══╝  ██║     ██║   ██║
+██║  ██║██║  ██║╚██████╗██║  ██║██║ ╚████║╚██████╔╝███████╗███████╗╚██████╔╝
+╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝╚══════╝ ╚═════╝ 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #`;
 
 const finalTitle = String.raw`
 
+ __   ___  __   ___            __                     ___      ___  __   
+|  \ |__  /__' |__  |\ | \  / /  \ |    \  / |  |\/| |__  |\ |  |  /  \  
+|__/ |___ .__/ |___ | \|  \/  \__/ |___  \/  |  |  | |___ | \|  |  \__/  
+                                                                         
+ ___  __   __       ___     ___     __        __           ___       __  
+|__  |__) /  \ |\ |  |     |__     |__)  /\  /  ' |__/    |__  |\ | |  \ 
+|    |  \ \__/ | \|  |     |___    |__) /~~\ \__, |  \    |___ | \| |__/ 
+                                                                         
+                                                                          
 
-██████ ██    ██ ██████  ███████ ██████  ██████  ██    ██ ███    ██ ██   ██ 
-██       ██  ██  ██   ██ ██      ██   ██ ██   ██ ██    ██ ████   ██ ██  ██  
-██        ████   ██████  █████   ██████  ██████  ██    ██ ██ ██  ██ █████   
-██         ██    ██   ██ ██      ██   ██ ██      ██    ██ ██  ██ ██ ██  ██  
- ██████    ██    ██████  ███████ ██   ██ ██       ██████  ██   ████ ██   ██ 
-                                                                            
-                                                                            
-████████ ███████ ███    ███ ██████  ██       █████  ████████ ███████        
-   ██    ██      ████  ████ ██   ██ ██      ██   ██    ██    ██             
-   ██    █████   ██ ████ ██ ██████  ██      ███████    ██    █████          
-   ██    ██      ██  ██  ██ ██      ██      ██   ██    ██    ██             
-   ██    ███████ ██      ██ ██      ███████ ██   ██    ██    ███████        
-                       `;
+                                                                          `;
+
+const README = String.raw` 
+------SERVICOS GERAIS COMO
+
+-----------DESENVOLVIMENTO DE PLATAFORMAS E DASHBOARDS
+
+-----------GERENCIAMENTO DE SITES E BANCOS DE DADOS
+
+-----------ANALISE E IDENTIFICAÇÃO DE RISCOS
+
+-----------DESIGN GRÁFICO E DIGITALIZAÇÃO VISUAL
+
+-----------AUTOMAÇÃO DE SERVIÇOS WEB E SQL
+
+-----------RESPONSIVIDADE WEB DINÂMICA
+
+---------------------------------------------------------------------------
+
+
+
+
+
+_____________________________ ARCANGELO @ 2021 ____________________________
+`;
 
    let blink = document.querySelector('.blink');
 const code = document.querySelector('.code');
@@ -319,7 +339,7 @@ const RenderString = characters => {
 
 const TypeString = async characters => {
 	for(const character of characters.split('')) {
-		await Delay(RandomNumber(90, 00));
+		await Delay(RandomNumber(30, 00));
 		RenderString(character);
 	}
 }
@@ -338,7 +358,7 @@ const DrawCommands = async commands => {
 		const [currentDir, command] = line.split(' --> ');
     RenderString('\n');
 		// Print the directory, type the command and finish with new line
-    RenderString(`${currentDir} ᑀ `);
+    RenderString(`${currentDir} `);
 		await TypeString(command);
 		RenderString('\n');
 	}
@@ -347,19 +367,32 @@ const DrawCommands = async commands => {
 
 // Start the code
 (async()=> {
-	await DrawCommands(" --> BOOTING CYBER UI...");
+	await DrawCommands(" --> BOOTING ArcangelOS...");
 
 	await Delay(100);
-	RenderString("\n");
+	RenderString("\n\n");
 	await DrawCommands(commands);
-	RenderString('\nインデックス.js    題名.js\n\n');
-	await DrawCommands('root「」~・サイバパンク・ファイル --> node インデックス.js');
+	RenderString('\nsplash.js   files/\n\n');
+	await DrawCommands('root「」ARC @ /home --> Δ node splash.js');
 	await DrawLines( header );
-	await TypeString("\n\nThe future is here. Get augmented.");
-	await Delay(2000);
+	await TypeString("\n\nBoot complete");
+	await Delay(2500);
 	ResetTerminal();
-	await DrawCommands('root「」~・サイバパンク・ファイル --> API_KEY=3db7ca618243da1ba3bc76ab14bcf07b && node 題名.js');
+  await DrawCommands('root[]ARC @ /home --> Δ cd /files');
+	await DrawCommands('root「」ARC @ /home/files --> Δ node overview.js');
 	await DrawLines(finalTitle);
+  await Delay(400);
+  await DrawCommands('root「」ARC @ /home/files --> Δ ls -aF');
+  RenderString('\overview.js   .logs/ README.md settings.json .cmf/\n\n');
+  await Delay(200);
+  await DrawCommands('root「」ARC @ /home/files --> Δ clear');
+  ResetTerminal();
+  await DrawCommands('root「」ARC @ /home/files --> Δ cat README.md');
+  await DrawLines( README );
+
+
+
+
 })();
 
 
