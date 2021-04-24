@@ -122,6 +122,9 @@ position: fixed;
 }
 
 .header-presentation {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
   width: 108vw;
   position: fixed;
   min-height: 90vh;
@@ -146,14 +149,13 @@ padding-bottom: -200px;  background: #00000000;
   .definitions-container1 {
 position: absolute;
   bottom: 25px;
-  right: 160px;
+  right: 250px;
   height: 330px;
   top: 300px;
-  width: 230px;
-  padding-bottom: -90px;
+  padding-bottom: -20px;
  
   perspective: 200px;
-  ;
+  
 
 
 }
@@ -170,6 +172,8 @@ position: absolute;
   padding-right: 4px;
 }
 .definitions-container1 .def1 {
+  position: fixed;
+  margin-top: 60px;
   --aug-bl: 25px;
   --aug-tr: 30px;
 
@@ -177,7 +181,7 @@ position: absolute;
   --aug-border-fallback-color: var(--gold);
   
   height: 80%;
-  width: 50%;
+  width: 100%;
   color: rgba(255, 255, 255, 0.8);
   font-size: 0rem;
   line-height: 15px;
@@ -196,31 +200,30 @@ position: absolute;
 
 }
 
-#four {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+
 .contact {
   margin-left: 2px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  
   perspective: 400px;
   padding-right: -400px;
   margin-top: -0020px;
 
   }
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
 
-
-.container #four .div1 {
-  position: relative;
+.div1 {
+  position: absolute;
   transform-origin: 50% 100%;
   transform: rotateY(8deg);
-padding-top: 30px;
-width: 80vw;
-display: flex;flex-direction: column;
-  height: 100px;
+margin-top: 12px;
+width: 54vw;
+
+  height: 75vh;
   --aug-bl: 25px;
   --aug-tr: 20px;
   --aug-br: 50px;
@@ -231,7 +234,7 @@ display: flex;flex-direction: column;
   --aug-border-bg: var(--gold88);
   --aug-border-fallback-color: #ffd700;
   
-  grid-area: one;
+  margin-left: 10px;
   font-size: 32px;
   color:var(--gold);
   filter: drop-shadow(0px 0px 0.125rem rgb(0,0,0));
@@ -241,14 +244,12 @@ display: flex;flex-direction: column;
 
 
 .container #four .div2 {
-  display: flex;
-  flex-direction: column;
   transform-origin: 50% 100%;
   transform: rotateY(-15deg);
- margin-left: 200px;
+  margin-left: 15vw;
   width: 400px;
- 
-  margin-top: -30px;
+  grid-area: two;
+  margin-top: 83vh;
   padding-bottom: 10px;
   --aug-bl: 25px;
   --aug-tr: 20px;
@@ -259,7 +260,6 @@ display: flex;flex-direction: column;
   --aug-border: 2px;
   --aug-border-bg: var(--gold88);
   --aug-border-fallback-color: var(--gold);
-
   font-size: 32px;
   color: var(--gold);
   filter: drop-shadow(0px 0px 0.125rem rgb(0,0,0));
@@ -276,6 +276,10 @@ display: flex;flex-direction: column;
   animation-play-state: var(--playstate, running);
 }
 
+.maps iframe {
+  height: 60vh;
+  width: 60vw;
+}
 
 .container #four .div1 h2 {
   font-size: 30px;
@@ -287,6 +291,12 @@ display: flex;flex-direction: column;
   font-size: 21px;
   margin-left: -20px;
 
+}
+.container {
+  overflow: auto;
+}
+#one .inicio {
+  height: 100vh;
 }
 
 
